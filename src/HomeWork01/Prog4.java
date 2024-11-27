@@ -1,7 +1,7 @@
-package lesson1;
+package HomeWork01;
 
 import java.util.Arrays;
-import java.util.concurrent.LinkedBlockingDeque;
+
 public class Prog4 {
     public static void main(String[] args) {
         String[] animal = {"horse", "dog", "cat", "horse", "dog" };
@@ -30,8 +30,10 @@ public class Prog4 {
                count++;
             }
         }
+        System.out.println(Arrays.toString(animal));
+        System.out.println(Arrays.toString(NoDuplicate));
         for (int i = 0; i <count ; i++) {
-            System.out.print(NoDuplicate[i] + " ");
+            System.out.print(NoDuplicate[i]+ " " );
         }
     }
 }

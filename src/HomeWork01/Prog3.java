@@ -1,6 +1,4 @@
-package lesson1;
-
-import java.util.Arrays;
+package HomeWork01;
 
 public class Prog3 {
     public static void main(String[] args) {
