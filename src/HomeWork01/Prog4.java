@@ -8,11 +8,11 @@ public class Prog4 {
         String[] animals =  {"horse", "dog", "cat", "horse", "dog"};
         StringBuilder stringBuilder = new StringBuilder();
         for (String animal : animals) {
-          if(stringBuilder.indexOf(animal) == -1) {
-              stringBuilder.append(animal).append(",");
-          }
+            if(stringBuilder.indexOf(animal) == -1) {
+                stringBuilder.append(animal).append(",");
+            }
         }
-       String[] removedDuplicates = stringBuilder.toString().split(",");
+        String[] removedDuplicates = stringBuilder.toString().split(",");
         System.out.println(Arrays.toString(removedDuplicates));
 
     }
