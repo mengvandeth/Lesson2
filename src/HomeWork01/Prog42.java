@@ -2,7 +2,7 @@ package HomeWork01;
 
 import java.util.Arrays;
 
-public class Prog4 {
+public class Prog42 {
     public static void main(String[] args) {
         String[] animal = {"horse", "dog", "cat", "horse", "dog" };
         String[] NoDuplicate = new String[animal.length];

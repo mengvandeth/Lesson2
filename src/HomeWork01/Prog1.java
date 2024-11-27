@@ -11,6 +11,5 @@ public class Prog1 {
         int y = rd.nextInt(3,15);
         System.out.printf("Y is = %d%n", y);
         System.out.printf("Y power PI = %.2f%n", Math.pow(y,Math.PI));
-        System.out.println("hello");
-    }
+        }
 }
