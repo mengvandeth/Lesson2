@@ -1,3 +1,5 @@
+package HomeWork01;
+
 public class Prog2 {
     public static void main(String[] args) {
         float f1 = 1.27f;

@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package HomeWork01;
 
 public class Prog6 {
 

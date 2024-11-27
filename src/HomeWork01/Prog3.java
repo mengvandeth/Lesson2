@@ -1,6 +1,8 @@
-public class Prog3 {
+package HomeWork01;
 
+public class Prog3 {
     public static void main(String[] args) {
+
         String records = "231A,Light Bulb,123,Wilco,1.75:"+
                 "113D,Hairbrush,19,Aamco,3.75:" +
                 "521W,Shampoo,24,Acme,6.95:" +
@@ -25,12 +27,11 @@ public class Prog3 {
                 "777X,Dog Bone,15,Wilco,4.15:" +
                 "933W,Cat Toy,15,Wilco,2.35:" +
                 "215A,Hair Ball,0,Little Jimmy,0.00:";
-
         String[] recordArray = records.split(":");
-        for (String s : recordArray) {
-            System.out.println(s.split(",")[0]);
+        for (int i=0; i<recordArray.length;i++){
+            System.out.println(recordArray[i].split(",")[0]);
         }
-    }
 
+    }
 
 }
